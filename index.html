@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Portfolio de Pierre Lefert</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="fade" onload="fadeIn()">
+
+    <header>
+        <h1>Portfolio de Pierre Lefert</h1>
+    </header>
+
+    <section class="image-container">
+        <div class="button" style="color: #207D93;"
+            onclick="document.location='C:/Users/conta/OneDrive/Documents/Pierre%20Lefert/projet_reconversion.html'">Ma
+            reconversion</div>
+        <div class="overlay">
+            <p>Je m'appelle Pierre Lefert, je vis à Guissény dans le Finistère avec mon épouse et nos trois enfants.</p>
+
+            <p>Après avoir décroché un baccalauréat littéraire avec mention assez bien, je me suis dirigé vers une
+                licence en cinéma et audiovisuel à l'université Paris III, que j'ai obtenue.</p>
+
+            <p>J'ai travaillé ensuite pendant plus de trois ans dans une épicerie italienne en tant que vendeur et
+                serveur.</p>
+
+            <p>En 2017, nous nous sommes installés à Brest. J'ai passé un CAP plomberie en 2019, mais n'ai pas
+                poursuivi dans cette branche.</p>
+
+            <p>En 2021 j'ai commencé à travailler en tant que porcher, durant deux ans.</p>
+
+            <p>Et maintenant, j'envisage un nouveau projet qui, je le pense, me correspond bien mieux.</p>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>Pierre Lefert</li>
+            <li>06.32.38.50.76.</li>
+            <li><a href="mailto:lefert_pierre@live.fr" class="email">lefert_pierre@live.fr</a></li>
+        </ul>
+        <p class="copyright">&copy; <span id="copyright-year">2024</span> Portfolio de Pierre Lefert. Tous droits
+            réservés.</p>
+        <script>
+            const year = new Date().getFullYear();
+            document.querySelector('#copyright-year').textContent = year;
+        </script>
+    </footer>
+
+</body>
+
+</html>
