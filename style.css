@@ -116,7 +116,7 @@ p {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../plagedelacroix-guisseny1.jpg');
+    background-image: url('plagedelacroix-guisseny1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -124,7 +124,7 @@ p {
 }
 
 .image-container.project {
-    background-image: url('../1600-900_ovye3SDo-1170x650.jpg');
+    background-image: url('1600-900_ovye3SDo-1170x650.png');
     /* background-attachment: fixed; */
 }
 
