@@ -43,7 +43,7 @@ header {
 
 }
 
-.back-arrow {
+.back-arrow svg {
     position: absolute;
     /* Permet de positionner la flèche */
     left: 1.25rem;
