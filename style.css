@@ -46,6 +46,8 @@ header {
 .back-arrow svg {
     position: absolute;
     /* Permet de positionner la flèche */
+    width: 30px;
+    height: 30px;
     left: 1.25rem;
     /* Positionne la flèche à gauche */
     top: 50%;
@@ -57,9 +59,13 @@ header {
     color: #302045;
 }
 
-.back-arrow:hover {
-    color: rgba(255, 255, 255, 0.7);
-    /* Change la couleur au survol */
+.back-arrow svg path {
+    fill: #302045; /* Changez la couleur ici */
+    transition: fill 0.3s ease;
+}
+
+.back-arrow:hover svg path {
+    fill: #f4f4f4;  /* Nouvelle couleur lors du survol */
 }
 
 h1 {
